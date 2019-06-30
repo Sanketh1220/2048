@@ -1,0 +1,122 @@
+.button {
+    display: inline-flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8f867e;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.button:hover {
+    background-color: #83786f;
+}
+
+.button:active {
+    background-color: #776e65;
+}
+
+#game-2048 {
+    height: 100%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 450px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.game-title {
+    flex: 1 0 0;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.box-2048 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #bbada0;
+    border-radius: 5px;
+}
+
+.row-2048 {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-2048 {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #cdc0b4;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.col-2048.color-2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.col-2048.color-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.col-2048.color-8 {
+    background-color: #f2b179;
+}
+
+.col-2048.color-16 {
+    background-color: #f59463;
+}
+
+.col-2048.color-32 {
+    background-color: #f67c5f;
+}
+
+.col-2048.color-64 {
+    background-color: #e95937;
+}
+
+.col-2048.color-128 {
+    background-color: #f2d86a;
+}
+
+.col-2048.color-256 {
+    background-color: #edcc60;
+}
+
+.col-2048.color-512 {
+    background-color: #f79c31;
+}
+
+.col-2048.color-1024 {
+    background-color: #edc22d;
+}
+
+.col-2048.color-2048 {
+    background-color: #60d992;
+}
